@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+<link rel="stylesheet" href="two.css">
+  
+  <header>
+  <h1>TIC TAC TOE</h1>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  
+  <table>
+  <tr>
+  <td><input type="button" id="1" onclick="xoo(1)" value=""/></td>
+  <td><input type="button" id="2" onclick="xoo(2)" value=""/></td>
+  <td><input type="button" id="3" onclick="xoo(3)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="4" onclick="xoo(4)" value=""/></td>
+  <td><input type="button" id="5" onclick="xoo(5)" value=""/></td>
+  <td><input type="button" id="6" onclick="xoo(6)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="7" onclick="xoo(7)" value=""/></td>
+  <td><input type="button" id="8" onclick="xoo(8)" value=""/></td>
+  <td><input type="button" id="9" onclick="xoo(9)" value=""/></td>
+  </tr>
+  </table>
+    
+  <section align="center" id="popup">
+  <p id="text">text</p>
+  <button id="popupbutton" onclick="zuruecksetzen()">Ok</button>
+  </section>
+  <a href="index.html"> <button class="button" style="vertical-align:middle"><span>Home</span></button></a> 
+
+  
+  <section id="overlay"></section>
+  <script src="two.js"></script>
+  </body>
+</html>
